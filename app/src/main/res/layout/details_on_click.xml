@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+   <ImageView
+       android:layout_width="350dp"
+       android:layout_height="270dp"
+       android:id="@+id/img_info"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:id="@+id/txt_info"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/img_info"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:id="@+id/edit_info"
+        android:layout_below="@+id/txt_info"
+        android:hint="Any Comments???"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:text="Go Back"
+        android:gravity="center"
+        android:layout_below="@+id/edit_info"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

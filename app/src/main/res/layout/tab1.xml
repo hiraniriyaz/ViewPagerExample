@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--<TextView-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/country"-->
+        <!--android:text="India"-->
+        <!--android:gravity="center"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/capital"-->
+        <!--android:text = "Delhi"-->
+        <!--android:layout_toRightOf="@+id/country"-->
+        <!--android:gravity="center"/>-->
+    <!--<ImageView-->
+        <!--android:layout_width="130dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/image"-->
+        <!--android:foregroundGravity="center"-->
+        <!--android:layout_toRightOf="@+id/capital"-->
+        <!--android:clickable="true"/>-->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycler_view"
+        android:orientation="vertical">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
